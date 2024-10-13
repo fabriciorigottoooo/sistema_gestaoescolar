@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btns-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button[type="submit"] {
+    background-color: #f70404;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #d60202;
+}
+
+.btn-voltar {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-voltar:hover {
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.update {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+.update button{
+    padding: 10px 20px;
+    background-color: #f70404;
+    border: none;
+    border-radius: 5px;
+    transition: background-color ease 0.3s;
+}
+
+.update button a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.update button:hover{
+    background-color: #d60202;
+    cursor: pointer;
+}
+
+.update button:hover img{
+    transform: translateX(-4px);
+}
+
+.update button img{
+    transition: transform 0.3s ease-in-out;
+}
+

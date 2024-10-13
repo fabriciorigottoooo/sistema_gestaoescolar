@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #e0e0e0;
+    height: 96px;
+    /* ajustar para 100px no pc da escola */
+}
+
+header h1 {
+    padding-top: 30px;
+}
+
+.img-elias{
+    width: 151.3px;
+    height: 94.4px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0e0e0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+nav {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f3f3f3;
+    width: 195px;
+    height: 590px;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    transition: font-size 0.3s ease;
+}
+
+nav ul li a:hover{
+    list-style: none;
+    font-size: 19px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container a {
+    transition: font-size ease 0.3s, transform ease 0.3s;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.container a:hover {
+    font-size: 20px;
+    transform: translateY(-3px);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.img-container {
+    position: absolute;
+    left: 0;
+    float: left;
+    padding-left: 11px;
+    margin-top: 10px;
+}
+
+.insta {
+    text-decoration: none;
+    color: #d60202;
+}
+
+.div-direita {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f3f3f3;
+    width: 190px;
+    height: 575px;
+    /* a altura é diferente no notebook, ajustar para 589px no computador da escola*/
+    list-style: none;
+    margin-left: 1330px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.div-direita ul li {
+    list-style: none;
+}
+
+.div-direita ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.div-direita ul li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.div-direita ul h3 {
+    margin-left: 20px;
+}
+
+.li-redes {
+    margin-left: 45px;
+}
+
+.contato {
+    margin-left: 10px;
+}
+
+b {
+    font-size: 18.5px;
+}
+
+.telefone {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 246px;
+    left: 25px;
+    transition: width ease 0.3s, height ease 0.3s;
+}
+
+.telefone:hover{
+    animation: ring  0.5s infinite;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+}
+
+@keyframes ring {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(15deg);
+    }
+    40%{
+        transform: rotateZ(30deg);
+    }
+    60%{
+        transform: rotateZ(15deg);
+    }
+    80%{
+        transform: rotateZ(-15deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+
+.txt-tel {
+    margin-left: 32px;
+}
+
+.placeholder {
+    height: 38px;
+    width: 35px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.placeholder:hover {
+    width: 40px;
+    height: 43px;
+    cursor: pointer;
+}
+
+.tooltip {
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+}
+
+.facebook{
+    height: 23px; 
+    width: 23px; 
+    position: absolute; 
+    left:38px; 
+    top: 150px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.facebook:hover{
+    width: 26px;
+    height: 26px;
+}
+
+.img-insta{
+    height: 23px; 
+    width: 23px; 
+    position: absolute; 
+    left: 38px; 
+    top: 111px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.img-insta:hover{
+    width: 26px;
+    height: 26px;
+}
+
+.edit{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 440px;
+    left: 150px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
